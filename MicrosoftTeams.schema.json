@@ -324,6 +324,17 @@
         ]
       }
     },
+    "subscriptionOffer": {
+      "type": "object",
+      "description": "Subscription offer associated with this app.",
+      "properties": {
+        "offerId": {
+          "type": "string",
+          "title": "The offerId schema",
+          "description": "This is the id for public offer which is published to AppSource. OfferId is formatted with (publisherName.offerId)."
+        }
+      }
+    },
     "bots": {
       "type": "array",
       "description": "The set of bots for this app. Currently only one bot per app is supported.",
